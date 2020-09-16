@@ -6,10 +6,12 @@ import 'mdbreact/dist/css/mdb.css';
 import "../styles/main.css"
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import SEO from "./seo";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title }) => {
   return (
     <>
+    <SEO title={title}/>
     <Navbar/>
       <main>{children}</main>
     <Footer/>

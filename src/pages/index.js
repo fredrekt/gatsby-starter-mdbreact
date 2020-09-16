@@ -1,12 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact"
 import '../styles/main.css'
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+  <Layout title="Home">
     <MDBContainer className="py-5 my-5">
       <MDBRow className="align-items-center">
         <MDBCol md="6" lg="6">

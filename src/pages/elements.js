@@ -8,8 +8,10 @@ const ElementsPage = () => {
         <Layout title="Elements">
             <MDBContainer className="py-5 my-5">
                 <MDBRow>
-                    <MDBCol md="4" lg="4">
+                    <MDBCol md="12" lg="12">
                         <h1 className="display-4 mb-5">Typography</h1>
+                    </MDBCol>
+                    <MDBCol md="4" lg="4">
                         <h1 className="h1-responsive">Heading 1</h1>
                         <h2 className="h2-responsive">Heading 2</h2>
                         <h3 className="h3-responsive">Heading 3</h3>

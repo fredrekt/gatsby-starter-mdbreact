@@ -1,21 +1,28 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact"
+import '../styles/main.css'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <MDBContainer className="py-5 my-5">
+      <MDBRow className="align-items-center">
+        <MDBCol md="6" lg="6">
+          <h1 className="h1-responsive">
+            MDBootstrap + GatsbyJS
+          </h1>
+          <p className="lead">
+            Here you can use rows and columns here to organize your footer
+            content. Here you can use rows and columns here to organize your footer
+            content. Here you can use rows and columns here. Here you can use rows 
+            and columns here. Here you can use rows and columns here.
+          </p>
+          <MDBBtn color="dark" className="text-capitalize m-0">Get Started</MDBBtn>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   </Layout>
 )
 

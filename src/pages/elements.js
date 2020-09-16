@@ -211,9 +211,9 @@ const ElementsPage = () => {
                     </MDBCol>
                 </MDBRow>
                 <MDBRow className="py-4">
-                    <MDBCol md="4" lg="4">
+                    <MDBCol md="6" lg="6">
                         <a href="https://mdbootstrap.com/docs/react">
-                            Read more here about MDBootstrap React.
+                            Read more here about components of MDBootstrap React.
                         </a>
                     </MDBCol>
                 </MDBRow>

@@ -12,12 +12,15 @@ const IndexPage = () => (
             MDBootstrap + GatsbyJS
           </h1>
           <p className="lead">
-            Here you can use rows and columns here to organize your footer
-            content. Here you can use rows and columns here to organize your footer
-            content. Here you can use rows and columns here. Here you can use rows 
-            and columns here. Here you can use rows and columns here.
+            A starter for Gatsby bootstraped with MDBReact - Material Design Bootstrap ReactJS.
           </p>
-          <MDBBtn color="dark" className="text-capitalize m-0">Get Started</MDBBtn>
+          <p className="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque eros a sem pulvinar, 
+          a eleifend urna sodales. Vivamus vel nisi risus. Nullam non orci pharetra, tempor justo quis, vulputate 
+          mi. Cras turpis nunc, tincidunt et finibus eget, maximus vel leo. Vestibulum vitae sapien lacinia tellus 
+          facilisis efficitur vel et elit.
+          </p>
+          <MDBBtn href="/elements" color="dark" className="text-capitalize m-0">Get Started</MDBBtn>
         </MDBCol>
       </MDBRow>
     </MDBContainer>

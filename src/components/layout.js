@@ -21,6 +21,7 @@ const Layout = ({ children, title }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  title: PropTypes.string.isRequired
 }
 
 export default Layout
